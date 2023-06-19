@@ -1,0 +1,42 @@
+.emphasis{
+    background: var(--color-gray-blue);
+    flex-direction: column;
+}
+
+.emphasis-title{
+    font-family: var(--font-second);
+    color: var(--color-dark-gray);
+}
+
+.emphasis-panel{
+    text-decoration: none;
+}
+
+.emphasis-panel-image{
+    margin: 1em auto;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    max-width: 600px;
+    box-shadow: 0px 2px 10px 5px #00000020;
+}
+
+.emphasis-panel-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+    padding: 0 1em 1em;
+    color: var(--color-black);
+}
+
+.emphasis-button{
+    border-color: var(--color-strong-red);
+    color: var(--color-strong-red);
+    width: 50%;
+}
+
+@media screen and (min-width: 1024px){
+    .emphasis-button{
+        width: 30%;
+    }
+}

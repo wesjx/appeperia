@@ -1,0 +1,51 @@
+
+.call-top{
+    flex-direction: column;
+    padding: 1em;
+    text-align: center;
+    background: var(--bg-call-mobile);
+    color: var(--color-white);
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.call-title-top{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: var(--font-second);
+    padding-bottom: 0.75em;
+}
+
+.call-text-top{
+    line-height: normal;
+    margin: 0 auto;
+}
+
+.call-button-top{
+    border-color: var(--color-white);
+    color: var(--color-white);
+    width: 50%;
+}
+
+@media screen and (min-width: 768px){
+    .call-text-top{
+        max-width: 600px;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .call-top{
+      background-image: url(../img/bg-intro.jpg);
+      background-size: cover;
+      padding-top: 8.25rem ;
+    }
+
+    .call-title-top{
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+    .call-button-top{
+        width: 20%;
+    }
+}

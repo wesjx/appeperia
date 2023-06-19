@@ -1,0 +1,68 @@
+.Institutional{
+    flex-direction: column;
+    align-items: center;
+}
+
+.institutional-text{
+    font-size: 15px;
+    margin-bottom: 2em;
+}
+
+.institutional-content-adress{
+    text-align: center;
+}
+
+.institutional-adress{
+    font-size: 23px;
+}
+
+.institutional-contact{
+    padding: 1em 0 1em 0;
+}
+
+.institutional-contact-phone, .institutional-contact-url{
+    font-size: 19px;
+}
+
+
+
+/* .institutional-contact-url{
+
+} */
+
+.instutional-video{
+    width: 100vw;
+}
+
+@media screen and (min-width: 768px){
+    .Institutional{
+        padding: 2em;
+    }
+    .instutional-video{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .institutional-content{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+    
+    .institutional-content-video{
+        align-self: flex-end;
+        width: 375px;
+    }
+
+    .institutional-content-adress{
+        position: absolute;
+        text-align: left;
+    }
+
+    .institutional-contact-url{
+        display: block;
+    }
+}

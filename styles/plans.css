@@ -1,0 +1,84 @@
+.plans{
+    background:var(--color-light-grey);
+}
+
+.plans-content{
+    flex-direction: column;
+    align-content: center;
+    margin: 3em;
+}
+
+.plans-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--color-white);
+
+    width: 100%;
+    max-width: 300px;
+    margin: 1em;
+    margin-bottom: 2rem;
+
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.063);
+}
+
+.plans-card-button {
+    width: 70%;
+}
+
+.plans-card-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    border-bottom: 2px solid var(--color-light-grey);
+}
+
+.plans-card-price{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.plans-card-text{
+    padding: 0 2em 0 2em;
+    margin: 0.25em;
+    font-weight: 400;
+    color: var(--font-grey);
+}
+
+
+.card--start{
+   color: var(--plans-card-start);
+   border-color: var(--plans-card-start);
+}
+
+.card--ultra{
+    color: var(--plans-card-ultra);
+    border-color: var(--plans-card-ultra);
+}
+
+.card--mega{
+    color: var(--plans-card-mega);
+    border-color: var(--plans-card-mega);
+}
+
+@media screen and (min-width: 1024px){
+    .card {
+        min-width: 300px;
+        margin: 1em;
+    }
+
+    .plans-content{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+}
